@@ -29,13 +29,13 @@ function Header() {
           src="https://www.freepnglogos.com/uploads/netflix-logo-drawing-png-19.png"
           alt=""
           onClick={() => router.push("/")}
-          className="fixed top-4 pl-[20px] w-[80px] object-contain cursor-pointer"
+          className="fixed top-4 pl-[20px] w-[140px] object-contain cursor-pointer"
         />
         <img
           src="https://th.bing.com/th/id/OIP.Dc_CS8r1PeYQs5rDkMTXOQAAAA?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7"
           alt=""
           onClick={() => router.push("/profile")}
-          className="fixed top-2 right-[20px] h-8 object-contain cursor-pointer"
+          className="fixed top-2 right-[20px] h-10 object-contain cursor-pointer"
         />
       </div>
     </div>
