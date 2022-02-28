@@ -65,7 +65,7 @@ const profile = () => {
       ) : (
         <div className="flex flex-col w-1/2 mx-auto pt-[8%] max-w-3xl">
           <h1 className="text-3xl font-normal border-b border-[#282c2d] mb-5">
-            Vous n'êtes pas connecté.
+            Vous n'êtes pas connectés.
           </h1>
           <button
             onClick={() => router.push("/")}
